@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .nav-link {
+        @apply inline px-2 lg:px-5 text-center  text-neutral-700 font-medium hover:text-primary-500 group-hover:text-primary-500;
+    }
+}
